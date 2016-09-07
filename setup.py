@@ -5,7 +5,7 @@ from distutils.core import setup
 
 setup(
     name="count_min_sketch",
-    version="3.0.1",
+    version="3.0.4",
     packages=['count_min_sketch/'],
     description="A fast and accurate Count-Min Sketch data structure.",
     author="Andrew Nystrom",
