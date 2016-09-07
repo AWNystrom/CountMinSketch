@@ -62,4 +62,5 @@ class CountMinSketch(object):
 		return self.query(a)
 	
 	def __setitem__(self, a, val):
-		self.update(a, val)
+		for row, col in izip(self.counts, self.get_columns(a)):
+		  row[col] = val
